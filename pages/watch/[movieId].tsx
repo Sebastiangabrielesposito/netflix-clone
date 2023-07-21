@@ -3,7 +3,7 @@ import useMovie from "@/hooks/useMovie";
 import { useRouter } from "next/router";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 
-const wacth = () => {
+const Wacth = () => {
     const router = useRouter()
     const {movieId} = router.query
 
@@ -30,4 +30,4 @@ const wacth = () => {
         </div>  
     )
 }
-export default wacth
+export default Wacth
